@@ -1,0 +1,435 @@
+
+
+.dashboardStatus {
+    background-color: #c49f47;
+    border: 1px solid #c49f47;
+    border-radius: 12px;
+}
+.dashboardStatusIcon .fa {
+    font-size: 36px;
+    padding: 8px;
+    color: #fff;
+    opacity: 0.1;
+}
+.dashboardStatusNumber, .dashboardStatusIcon {
+    padding: 8px;
+}
+.dashboardStatusNumber .dashboardNumber {
+    font-size: 30px;
+}
+.dashboardStatusNumber .dashboardText {
+    font-size: 18px;
+}
+.dashboardStatus {
+    height: 100px;
+    border-radius: 8px;
+    padding-right: 15px;
+}
+.sundance {
+    background-color: #03598D;
+    border: 1px solid #03598D;
+}
+.darkCerulean {
+    background-color: #34dbd5;
+    border: 1px solid #34dbd5;
+}
+
+.mediumTurquoise {
+    background-color: #32C5D2;
+    border: 1px solid #32C5D2;
+}
+.mediumPurple{
+    background-color: #BC8F8F;
+    border: 1px solid #BC8F8F;
+}
+.darkKhaki{
+    background-color: #D2B48C;
+    border: 1px solid #D2B48C;
+}
+.blanchedAlmond{
+    background-color: #DEB887;
+    border: 1px solid #DEB887;
+}
+.dashboardStatus p{
+    margin: 0px;
+}
+.dashboardStatusIcon .fa {
+    color: #fff;
+    font-size: 97px;
+    margin-left: -37px;
+    opacity: 0.12;
+}
+.dashboardStatusNumber, .dashboardStatusIcon {
+    padding: 8px;
+}
+.dashboardStatusNumber .dashboardNumber {
+    font-size: 24px;
+    color: #fff;
+    //padding-top: 25px;
+    text-align: right;
+}
+.dashboardStatusNumber .dashboardText {
+    font-size: 14px;
+    color: #fff;
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    .dashboardStatusNumber .dashboardNumber {
+        padding-top: 8px;
+    }
+}
+#pointer {
+    background: #7B68EE;
+    border-radius: 8px 0 0 8px;
+    height: 100px;
+    position: relative;
+    width: 80%;
+}
+#pointer::after {
+    border-bottom: 50px solid transparent;
+    //border-left: 24px solid white;
+    border-top: 50px solid transparent;
+    bottom: 0;
+    content: "";
+    height: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+}
+#pointer::before {
+    border-bottom: 50px solid transparent;
+    border-left: 47px solid #7B68EE;
+    border-top: 50px solid transparent;
+    bottom: 0;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -47px;
+    width: 0;
+}
+
+.dashboardResult {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+.registerHere {
+    font-family: 'Oxygen', sans-serif;
+}
+.registerButton {
+    background-color: #c38748;
+    color: #fff;
+}
+.registerButton:focus {
+    color: #fff;
+}
+.registerButton:hover {
+    background-color: #c38748;
+    color: #fff;
+    border-color: #c38748;
+}
+h1.title { 
+    font-size: 50px;
+    font-family: 'Passion One', cursive; 
+    font-weight: 400; 
+    color: #c38748;
+    text-align: center;
+}
+.navAdd {
+    color: #000;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+.titleNav {
+    color: #000;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+}
+.mainBodyContent label {
+    font-weight: normal;
+}
+.registerHere .form-group{
+    margin: 15px 0px;
+}
+.registerHere label{
+    margin-bottom: 15px;
+}
+.registerHere input,
+.registerHere input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+.registerHere .main-login{
+    background-color: #fff;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.registerHere .main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    padding: 40px 40px;
+}
+.registerHere .login-button{
+    margin-top: 5px;
+}
+.registerHere .login-register{
+    font-size: 11px;
+    text-align: center;
+}
+.mainBodyContent {
+    min-height: 650px;
+    margin: 0 4px;
+}
+table {
+    background-color: #fff;
+}
+#box {
+    margin-bottom: 0px;
+}
+#selectWidth {
+    width: 100%;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 100%;
+}
+.main-center .dropdown-menu > .active > a, .main-center .dropdown-menu > .active > a:focus, .main-center .dropdown-menu > .active > a:hover {
+    background-color: #c38748;
+}
+.main-center .bootstrap-select > .btn {
+    border-radius: 0px;
+}
+.bg-alaponDashboard {
+    background-color: #c38748;
+    color: #fff;
+    font-weight: bold;
+}
+.bg-alaponDashboard:active, .bg-alaponDashboard:focus, .bg-alaponDashboard:hover {
+    color: #fff;
+    font-weight: bold;
+}
+th:first-child, td:first-child { 
+    text-align: center;
+}
+textarea {
+    resize: vertical;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-weight: normal;
+    height: 60px;
+    margin-bottom: 15px;
+    padding: 16px 20px;
+    width: 100%;
+    transition: all 0.6s ease 0s;
+}
+textarea:focus {
+    height: 100px;
+}
+.balanceAdd {
+    padding: 0 50px;
+}
+.accountAdd {
+    border-left: 1px solid #e5e5e5;
+    padding: 0 50px;
+}
+.voucher .form-group {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.modal-dialog {
+    margin: 30px auto;
+    width: 80%;
+}
+.ysrSales h3, .ysrSales h4 {
+    text-align: center;
+    color: #c38748;
+}
+.ysrSales .control-label {
+    text-align: left;
+}
+.lastWidthInput {
+    width: 96%;
+}
+.lastWidthInputSTATUS {
+    width: 98%;
+}
+.mainBodyContent h4, .saleHeader {
+    text-align: center;
+}
+.salaryAddMOdal .modal-dialog {
+    width: 600px;
+    margin-top: 60px;
+}
+.salaryAddMOdal .modal-body {
+    padding: 15px 50px;
+}
+.employeeAddSalary {
+    margin-top: 30px;
+}
+/*----------------------------------------------*/
+//------------------sales quotes----------------//
+/*----------------------------------------------*/
+.mainContentWrapper {
+    margin: 30px;
+}
+.formPartSalesQuotesYsr {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.formPartSalesQuotesYsr_header {
+    background-color: #f5f5f5;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    color: #cacccb;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.formPartSalesQuotesYsr_body {
+    background-color: #f9f9f9;
+    min-height: 200px;
+    color: #000;
+    padding: 30px;
+}
+/*.formPartSalesQuotesYsr_footer {
+    background-color: #f5f5f5;
+    color: #97969c;
+    border-top: 1px solid #ddd;
+}*/
+.formPartSalesQuotesYsr_body .submitButton {
+    color: #97969c;
+    font-weight: bold;
+    font-size: 18px;
+}
+#formPartSalesQuotesYsr .form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 300px;
+}
+
+#formPartSalesQuotesYsr .form-control:focus{
+border-color: #66afe9;
+box-shadow: 0 0 1px rgba(0, 0, 0, 0.075) inset, 0 0 4px rgba(102, 175, 233, 0.6);
+outline: 0 none;
+}
+#formPartSalesQuotesYsr .form-horizontal .form-group {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#formPartSalesQuotesYsr label {
+    font-weight: 600;
+    font-size: 14px;
+}
+#formPartSalesQuotesYsr .heading {
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    padding: 6px 20px;
+}
+#formPartSalesQuotesYsr .billingAaddress, #formPartSalesQuotesYsr .deliveryAddress, #formPartSalesQuotesYsr .deliveryInstructions, #formPartSalesQuotesYsr .supplierAddress {
+    height: 100px;
+}
+#formPartSalesQuotesYsr .salesGroup {
+    
+}
+.formPartSalesQuotesYsr_body .bootstrap-select > .btn {
+    width: 300px;;
+}
+#deliveryDatePart .form-control, #formPartSalesQuotesYsr_body .width145 .form-control, #issueDate .form-control {
+    width: 145px;
+}
+#formPartSalesQuotesYsr_body .width200 .form-control {
+    width: 200px;
+}
+#quoteNumber .form-control, #formPartSalesQuotesYsr_body .width110 .form-control {
+    width: 110px;
+}
+.formPartSalesQuotesYsr_body .input-group .input-group-addon {
+    background-color: #eee;
+    border-color: #ccc;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+     border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+#inputGroup .form-control {
+    border-radius: 0px 4px 4px 0px;
+}
+.formPartSalesQuotesYsr_body .bootstrap-select.btn-group .dropdown-menu {
+    min-width: 308px;
+}
+#qtyPart #qty, #unitPricePart #unitPrice, #amountPart #amount, #discountPart #discount {
+    width: 100px;
+    height: 50px;
+}
+#unitPricePart #unitPrice, #amountPart #amount, #discountPart #discount {
+ text-align: center;
+}
+ #amountPart #amount {
+ background-color: #eee;
+}
+#descriptionPart #description {
+    height: 50px;
+}
+#formPartSalesQuotesYsr_body .positionLeftMargin {
+    float: left;
+   
+}
+#deliveryNotesPart #deliveryNotes, #formPartSalesQuotesYsr_body #assetDscription, #formPartSalesQuotesYsr_body #assetNotes {
+    height: 100px;
+    width: 500px;
+}
+#formPartSalesQuotesYsr_body .positionLeftMargin .form-group {
+     margin-right: 15px;
+}
+#formPartSalesQuotesYsr_body #code, #formPartSalesQuotesYsr_body #creditLimit {
+    width: 100px;
+}
+.finishedAddSelect {
+    margin-top: 25px;
+}
+
+ #formPartSalesQuotesYsr_body .bgColorEee{
+ background-color: #eee;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        margin: 30px auto;
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .salaryAddMOdal .modal-dialog {
+        width: 250px;
+    }
+}
