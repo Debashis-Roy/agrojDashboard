@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Agroj | Dashboard</title>
+        <title>Agroj | Add Product 1</title>
         <link rel="icon" type="image/png" href="img/feb-icon.png">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="dist/css/admin.css">
@@ -18,7 +19,6 @@
         <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
         <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
         <link rel="stylesheet" href="css/style.css">
-
     </head>
     <body class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper">
@@ -149,78 +149,59 @@
             <!--Main Content-->
             <div class="content-wrapper">
                 <section class="content mainBodyContent">
-                    <div class="dashboardResult">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div id="pointer">
-                                    <div class="row">
-                                        <div class="col-sm-4 col-xs-4">
-                                            <div class="dashboardStatusIcon">
-                                                <i class="fa fa-list"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-8 col-xs-8">
-                                            <div class="dashboardStatusNumber">
-                                                <p class="dashboardNumber" style="padding-top: 6px;">36926221</p>
-                                                <p class="dashboardText">OPENING BALANCE</p>
+                    <div class="row ">
+                        <div class="col-sm-12">
+                            <div class="formControl" id="formControl">
+                                <!--begin::Portlet-->
+                                <div class="formContent">
+                                    <div class="formContentHead">
+                                        <div class="formContentHeadCaption">
+                                            <div class="formContentHeadTitle">
+                                                <h3 class="formContentHeadText">
+                                                    Input One column example
+                                                </h3>
                                             </div>
                                         </div>
                                     </div>
+                                    <!--begin::Form-->
+                                    <form class="m-form  ">
+                                        <div class="formContentBody">
+                                            <div class="form-group formGroup row">
+                                                <label class="formLabel col-sm-3">Name : </label>
+                                                <div class="col-sm-6">
+                                                    <input type='text' class="form-control" type="text" placeholder="Enter your name...." required="required"/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group formGroup row">
+                                                <label class="formLabel col-sm-3">Phone Number</label>
+                                                <div class="col-sm-6">
+                                                    <input type='number' class="form-control" type="text" placeholder="Enter your phone number...." required="required"/>
+                                                </div>
+                                            </div>
+                                            <div class="form-group formGroup row">
+                                                <label class="formLabel col-sm-3">Email Address</label>
+                                                <div class="col-sm-6">
+                                                    <input type='text' class="form-control" type="email" placeholder="Enter your email address...." required="required"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="formContentFooter">
+                                            <div class="formAction">
+                                                <div class="row">
+                                                    <div class="col-sm-3"></div>
+                                                    <div class="col-sm-9">
+                                                        <button type="submit" class="btn btn-brand"><i class="fa fa-paper-plane"></i> Submit</button>
+                                                        <button type="reset" class="btn btn-secondary">Cancel</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <!--end::Form-->
                                 </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="dashboardStatus mediumPurple">
-                                    <div class="row">
-                                        <div class="col-sm-4 col-xs-4">
-                                            <div class="dashboardStatusIcon">
-                                                <i class="fa fa-list"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-8 col-xs-8">
-                                            <div class="dashboardStatusNumber">
-                                                <p class="dashboardNumber">52000</p>
-                                                <p class="dashboardText">Today Total Due</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="dashboardStatus darkKhaki">
-                                    <div class="row">
-                                        <div class="col-sm-4 col-xs-4">
-                                            <div class="dashboardStatusIcon">
-                                                <i class="fa fa-list"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-8 col-xs-8">
-                                            <div class="dashboardStatusNumber">
-                                                <p class="dashboardNumber">120000</p>
-                                                <p class="dashboardText">Total Outstanding</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="dashboardStatus blanchedAlmond">
-                                    <div class="row">
-                                        <div class="col-sm-4 col-xs-4">
-                                            <div class="dashboardStatusIcon">
-                                                <i class="fa fa-list"></i>
-                                            </div>
-                                        </div>
-                                        <div class="col-sm-8 col-xs-8">
-                                            <div class="dashboardStatusNumber">
-                                                <p class="dashboardNumber">82526221</p>
-                                                <p class="dashboardText">Today Total Balance</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            </div><!--end::Portlet-->
                         </div>
-                    </div><br>
+                    </div>
                 </section>
             </div><!--End Main content-->
 
@@ -233,6 +214,7 @@
         <!--jQuery PART-->
         <script src="plugins/jQuery/jquery-2.2.3.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
         <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
         <script>
             $.widget.bridge('uibutton', $.ui.button);
@@ -252,88 +234,5 @@
         <script src="dist/js/app.min.js"></script>
         <script src="dist/js/pages/dashboard.js"></script>
         <script src="dist/js/demo.js"></script><!--End jQuery PART dist/js/pages/dashboard.js-->
-        <script>
-            $(function () {
-                "use strict";
-
-                // AREA CHART
-                var area = new Morris.Area({
-                    element: 'revenue-chart',
-                    resize: true,
-                    data: [
-                        {y: '2011 Q1', item1: 2666, item2: 2666},
-                        {y: '2011 Q2', item1: 2778, item2: 2294},
-                        {y: '2011 Q3', item1: 4912, item2: 1969},
-                        {y: '2011 Q4', item1: 3767, item2: 3597},
-                        {y: '2012 Q1', item1: 6810, item2: 1914},
-                        {y: '2012 Q2', item1: 5670, item2: 4293},
-                        {y: '2012 Q3', item1: 4820, item2: 3795},
-                        {y: '2012 Q4', item1: 15073, item2: 5967},
-                        {y: '2013 Q1', item1: 10687, item2: 4460},
-                        {y: '2013 Q2', item1: 8432, item2: 5713}
-                    ],
-                    xkey: 'y',
-                    ykeys: ['item1', 'item2'],
-                    labels: ['Item 1', 'Item 2'],
-                    lineColors: ['#a0d0e0', '#3c8dbc'],
-                    hideHover: 'auto'
-                });
-
-                // LINE CHART
-                var line = new Morris.Line({
-                    element: 'line-chart',
-                    resize: true,
-                    data: [
-                        {y: '2011 Q1', item1: 2666},
-                        {y: '2011 Q2', item1: 2778},
-                        {y: '2011 Q3', item1: 4912},
-                        {y: '2011 Q4', item1: 3767},
-                        {y: '2012 Q1', item1: 6810},
-                        {y: '2012 Q2', item1: 5670},
-                        {y: '2012 Q3', item1: 4820},
-                        {y: '2012 Q4', item1: 15073},
-                        {y: '2013 Q1', item1: 10687},
-                        {y: '2013 Q2', item1: 8432}
-                    ],
-                    xkey: 'y',
-                    ykeys: ['item1'],
-                    labels: ['Item 1'],
-                    lineColors: ['#3c8dbc'],
-                    hideHover: 'auto'
-                });
-
-                //DONUT CHART
-                var donut = new Morris.Donut({
-                    element: 'sales-chart',
-                    resize: true,
-                    colors: ["#3c8dbc", "#f56954", "#00a65a"],
-                    data: [
-                        {label: "Download Sales", value: 12},
-                        {label: "In-Store Sales", value: 30},
-                        {label: "Mail-Order Sales", value: 20}
-                    ],
-                    hideHover: 'auto'
-                });
-                //BAR CHART
-                var bar = new Morris.Bar({
-                    element: 'bar-chart',
-                    resize: true,
-                    data: [
-                        {y: '2006', a: 100, b: 90},
-                        {y: '2007', a: 75, b: 65},
-                        {y: '2008', a: 50, b: 40},
-                        {y: '2009', a: 75, b: 65},
-                        {y: '2010', a: 50, b: 40},
-                        {y: '2011', a: 75, b: 65},
-                        {y: '2012', a: 100, b: 90}
-                    ],
-                    barColors: ['#00a65a', '#f56954'],
-                    xkey: 'y',
-                    ykeys: ['a', 'b'],
-                    labels: ['CPU', 'DISK'],
-                    hideHover: 'auto'
-                });
-            });
-        </script>
     </body>
 </html>

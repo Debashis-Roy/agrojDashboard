@@ -112,7 +112,7 @@
 .dashboardResult {
     background-color: #fff;
     padding: 20px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.08);
 }
 
 
@@ -126,22 +126,22 @@
     font-family: 'Oxygen', sans-serif;
 }
 .registerButton {
-    background-color: #c38748;
+    background-color: #716aca;
     color: #fff;
 }
 .registerButton:focus {
     color: #fff;
 }
 .registerButton:hover {
-    background-color: #c38748;
+    background-color: #716aca;
     color: #fff;
-    border-color: #c38748;
+    border-color: #716aca;
 }
 h1.title { 
     font-size: 50px;
     font-family: 'Passion One', cursive; 
     font-weight: 400; 
-    color: #c38748;
+    color: #716aca;
     text-align: center;
 }
 .navAdd {
@@ -179,7 +179,7 @@ h1.title {
     border-radius: 2px;
     -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.08);
 }
 .registerHere .main-center{
     margin-top: 30px;
@@ -195,7 +195,7 @@ h1.title {
 }
 .mainBodyContent {
     min-height: 650px;
-    margin: 0 4px;
+    margin: 0 15px;
 }
 table {
     background-color: #fff;
@@ -210,13 +210,13 @@ table {
     width: 100%;
 }
 .main-center .dropdown-menu > .active > a, .main-center .dropdown-menu > .active > a:focus, .main-center .dropdown-menu > .active > a:hover {
-    background-color: #c38748;
+    background-color: #716aca;
 }
 .main-center .bootstrap-select > .btn {
     border-radius: 0px;
 }
 .bg-alaponDashboard {
-    background-color: #c38748;
+    background-color: #716aca;
     color: #fff;
     font-weight: bold;
 }
@@ -258,7 +258,7 @@ textarea:focus {
 }
 .ysrSales h3, .ysrSales h4 {
     text-align: center;
-    color: #c38748;
+    color: #716aca;
 }
 .ysrSales .control-label {
     text-align: left;
@@ -432,4 +432,156 @@ outline: 0 none;
     .salaryAddMOdal .modal-dialog {
         width: 250px;
     }
+}
+/*------------------------------------------------------------------------------New-------------------------------------------------------------------*/
+#formControl form {
+}
+.m-body .formControl {
+    padding: 30px;
+}
+.formContent {
+    background-color: #ffffff;
+    box-shadow: 0 1px 15px 1px rgba(113, 106, 202, 0.08);
+}
+.formContent {
+    margin-bottom: 36px;
+}
+.formContent .formContentHead {
+    border-bottom: 1px solid #ebedf2;
+}
+.formContent .formContentHead {
+    display: table;
+    height: 82px;
+    padding: 0 36px;
+    width: 100%;
+}
+.formContent .formContentHead .formContentHeadCaption {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+.formContent .formContentHead .formContentHeadCaption .formContentHeadTitle {
+    display: table;
+    height: 100%;
+    table-layout: fixed;
+}
+.formContent .formContentHead .formContentHeadCaption .formContentHeadTitle .formContentHeadText {
+    display: table-cell;
+    font-size: 21px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.formContent .formContentHead .formContentHeadText {
+    color: #575962;
+}
+.formContentBody {
+    padding-left: 0;
+    padding-right: 0;
+}
+.formContent .formContentBody {
+    color: #575962;
+     margin-top: 30px;
+     margin-bottom: 15px;
+}
+.m-form__content, .m-form__heading, .formGroup {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.formGroup:first-child {
+    padding-top: 0;
+}
+.formGroup {
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.m-form .formGroup > label {
+    text-align: right;
+}
+.formGroup label.formLabel {
+    padding-top: 6px;
+}
+.formGroup > label {
+    color: #3f4047;
+}
+.formGroup label {
+    font-size: 16px;;
+    font-weight: 400;
+}
+.formContent .formLabel {
+    margin-bottom: 0;
+    padding-bottom: calc(15px - 1px * 2);
+    padding-top: calc(15px - 1px * 2);
+}
+.formContent .form-control[readonly], .form-control {
+    border-color: #ebedf2;
+    color: #575962;
+}
+.formContent .form-control {
+    font-family: sans-serif,Arial;
+}
+.formContent .form-control {
+    background-clip: padding-box;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #495057;
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    line-height: 1.25;
+    padding: 0px 15px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+button, input {
+    overflow: visible;
+}
+
+.formContent .formContentFooter {
+    padding: 0;
+    border-top: 1px solid #ebedf2;
+}
+.formAction {
+    padding: 30px;
+}
+.ml-lg-auto {
+    margin-left: auto;
+}
+.formContent .btn {
+    cursor: pointer;
+}
+.formContent .btn-brand {
+    background-color: #716aca;
+    border-color: #716aca;
+    color: #fff;
+}
+.formContent .btn {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.25;
+    padding: 10px 25px;
+    text-align: center;
+    transition: all 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.formContent button,.formContent  select {
+    text-transform: none;
+}
+.formContent button, .formContent input {
+    overflow: visible;
+}
+.formContent .btn.btn-default, .formContent .btn.btn-secondary {
+    background: white none repeat scroll 0 0;
+    border-color: #ebedf2;
+}
+.formContent .btn-secondary {
+    background-color: #ebedf2;
+    border-color: #ebedf2;
+    color: #111;
 }
